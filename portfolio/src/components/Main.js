@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import Landing from './landing';
+import Landing from './Landing';
 import Contact from './Contact';
 import Resume from './Resume';
 import About from './About';
