@@ -24,7 +24,7 @@ class Projects extends Component{
                               DevConnector - a social media for developers.
                             </CardText>
                             <CardActions border style={{textAlign:"center"}}>
-                               <a href="https://github.com/AkshayGupt/DevConnector"><Button colored>View</Button></a> 
+                               <a href="https://github.com/AkshayGupt/DevConnector" target="_blank"><Button colored>View</Button></a> 
                             </CardActions>
                         </Card>
                        {/* </Cell> */}
@@ -35,7 +35,7 @@ class Projects extends Component{
                             My portfolio
                         </CardText>
                         <CardActions border style={{textAlign:"center"}}>
-                            <a href="https://github.com/AkshayGupt/portfolio"><Button  colored>View</Button></a>
+                            <a href="https://github.com/AkshayGupt/portfolio" target="_blank"><Button  colored>View</Button></a>
                         </CardActions>
                     </Card>
                        {/* </Cell> */}
@@ -57,7 +57,7 @@ class Projects extends Component{
                               Store Management System - provides admin and customer services.
                             </CardText>
                             <CardActions border style={{textAlign:"center"}}>
-                                <a href="https://github.com/AkshayGupt/store-management-system"><Button colored>View</Button></a>
+                                <a href="https://github.com/AkshayGupt/store-management-system" target="_blank"><Button colored>View</Button></a>
                             </CardActions>
                         </Card>
            </div> 
