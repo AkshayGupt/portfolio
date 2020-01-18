@@ -10,19 +10,17 @@ function App() {
   return (
     <div className="demo-big-content">
     <Layout>
-        <Header className="nav-header" title="Akshay" scroll>
+        <Header className="nav-header" title={<Link to="/" style={{textDecoration:"none",color:"white"}} >MyPortfolio</Link>} scroll>
             <Navigation>
                 <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Akshay">
+        <Drawer title={<Link to="/" style={{textDecoration:"none",color:"grey"}} >MyPortfolio</Link>}>
             <Navigation>
             <Link to="/">Home</Link>
-                <Link to="/about">Aboutme</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>

@@ -99,3 +99,11 @@ height:100%;
     padding-bottom: 1em;
     
 }
+
+/*Resume Page */
+
+.resume-right-col{
+    background:#27221F;
+    color:white;
+    padding:2em;
+}
