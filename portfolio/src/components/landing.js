@@ -18,8 +18,8 @@ class Landing extends Component{
                             <hr></hr>
                             <p>HTML/CSS | JAVASCRIPT | BOOTSTRAP | NodeJS | MongoDB | Express | ReactJS</p>
                             <div className="social-icons">
-                            <a href="http://google.com" ><i className="fab fa-linkedin"  ></i></a>
-                            <a href="http://google.com" ><i className="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/akshay-gupta-3a5087172/" ><i className="fab fa-linkedin"  ></i></a>
+                            <a href="https://github.com/AkshayGupt" ><i className="fab fa-github"></i></a>
                              </div>
                             
                         </div>

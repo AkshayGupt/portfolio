@@ -59,3 +59,43 @@ height:100%;
     font-size: 5em;
     width: 30%;
 }
+.projects-grid{
+    display:flex;
+}
+
+.contact-grid{
+    height:100%;
+}
+
+.contact-part-a{
+    background: white;
+    text-align: center;
+    margin:auto;
+}
+.contact-part-a img{
+    background: #cc5333;
+    border-radius:1rem;
+}
+.contact-part-a h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200
+}
+.contact-part-a p{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.contact-part-b{
+    background: white;
+    margin:auto;
+    text-align: center;
+}
+.contact-part-b h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+}
+.contact-part-b i{
+    font-size: 35px;
+    padding-right:25px;
+    padding-bottom: 1em;
+    
+}

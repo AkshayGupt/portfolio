@@ -12,7 +12,8 @@ function App() {
     <Layout>
         <Header className="nav-header" title="Akshay" scroll>
             <Navigation>
-                <Link to="/about">Aboutme</Link>
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
@@ -20,6 +21,7 @@ function App() {
         </Header>
         <Drawer title="Akshay">
             <Navigation>
+            <Link to="/">Home</Link>
                 <Link to="/about">Aboutme</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
