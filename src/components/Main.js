@@ -10,7 +10,8 @@ class Main extends Component{
     render(){
         return(
            <Switch>
-               <Route exact path='/' component={Landing} />
+               <Route path="/" component={Landing}/>
+               <Route exact path='/portfolio' component={Landing} />
                <Route  path='/contact' component={Contact} />
                <Route  path='/resume' component={Resume} />
                <Route  path='/projects' component={Projects} />
