@@ -15,9 +15,6 @@ class Projects extends Component{
         if(this.state.active === 0){
             return(
                <div className="projects-grid">
-                   {/* <Grid>  */}
-                       {/* <Cell col={2}></Cell> */}
-                       {/* <Cell col={4}> */}
                         <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
                             <CardTitle expand style={{color: '#fff', background: 'url(https://www.visions.net.in/sites/default/files/images/mern2/business.png) center right 15% no-repeat #46B6AC'}}></CardTitle>
                             <CardText>
@@ -27,8 +24,15 @@ class Projects extends Component{
                                <a href="https://github.com/AkshayGupt/DevConnector" target="_blank"><Button colored>View</Button></a> 
                             </CardActions>
                         </Card>
-                       {/* </Cell> */}
-                       {/* <Cell col={4}> */}
+                        <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                            <CardTitle expand style={{color: '#fff', background: 'url(https://storage.googleapis.com/blog-images-backup/1*3SVfBkNZI2f-sspiq59xcw.png) center right 15% no-repeat #46B6AC'}}></CardTitle>
+                            <CardText>
+                            Playlist - a youtube Playlist.
+                            </CardText>
+                            <CardActions border style={{textAlign:"center"}}>
+                               <a href="https://github.com/AkshayGupt/Playlist" target="_blank"><Button colored>View</Button></a> 
+                            </CardActions>
+                        </Card>
                        <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
                         <CardTitle expand style={{color: '#fff', background: 'url(https://i.udemycdn.com/course/240x135/1411694_0862.jpg) center right 50% no-repeat #46B6AC'}}></CardTitle>
                         <CardText>
@@ -37,12 +41,7 @@ class Projects extends Component{
                         <CardActions border style={{textAlign:"center"}}>
                             <a href="https://github.com/AkshayGupt/portfolio" target="_blank"><Button  colored>View</Button></a>
                         </CardActions>
-                    </Card>
-                       {/* </Cell> */}
-                       {/* <Cell col={2}></Cell> */}
-                   {/* </Grid> */}
-                  
-                
+                    </Card>     
                    </div> 
                 )
             }

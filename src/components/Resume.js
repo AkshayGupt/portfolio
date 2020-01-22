@@ -67,6 +67,10 @@ class Resume extends Component{
 
                         <h2>Skills</h2>
                         <Skills
+                            skill={"JAVA"}
+                            level={75}
+                        />
+                        <Skills
                             skill={"HTML/CSS"}
                             level={80}
                         />

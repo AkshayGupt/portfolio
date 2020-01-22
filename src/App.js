@@ -18,7 +18,7 @@ function App() {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title={<Link to="/portfolio" style={{textDecoration:"none",color:"grey"}} >MyPortfolio</Link>}>
+        <Drawer title={<Link to="/portfolio" style={{textDecoration:"none",color:"grey"}}>MyPortfolio</Link>}>
             <Navigation>
             <Link to="/portfolio">Home</Link>
                 <Link to="/resume">Resume</Link>
