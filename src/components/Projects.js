@@ -14,8 +14,8 @@ class Projects extends Component{
         
         if(this.state.active === 0){
             return(
-               <div className="projects-grid">
-                        <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                <Grid>
+                    <Cell col={4} phone={12} tablet={12} align="middle"> <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
                             <CardTitle expand style={{color: '#fff', background: 'url(https://www.visions.net.in/sites/default/files/images/mern2/business.png) center right 15% no-repeat #46B6AC'}}></CardTitle>
                             <CardText>
                               DevConnector - a social media for developers.
@@ -23,8 +23,9 @@ class Projects extends Component{
                             <CardActions border style={{textAlign:"center"}}>
                                <a href="https://github.com/AkshayGupt/DevConnector" target="_blank"><Button colored>View</Button></a> 
                             </CardActions>
-                        </Card>
-                        <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                        </Card></Cell>
+                    <Cell col={4} phone={12} tablet={12}>
+                    <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
                             <CardTitle expand style={{color: '#fff', background: 'url(https://storage.googleapis.com/blog-images-backup/1*3SVfBkNZI2f-sspiq59xcw.png) center right 15% no-repeat #46B6AC'}}></CardTitle>
                             <CardText>
                             Playlist - a youtube Playlist.
@@ -33,7 +34,9 @@ class Projects extends Component{
                                <a href="https://github.com/AkshayGupt/Playlist" target="_blank"><Button colored>View</Button></a> 
                             </CardActions>
                         </Card>
-                       <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                    </Cell>
+                    <Cell col={4} phone={12} tablet={12}> 
+                    <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
                         <CardTitle expand style={{color: '#fff', background: 'url(https://i.udemycdn.com/course/240x135/1411694_0862.jpg) center right 50% no-repeat #46B6AC'}}></CardTitle>
                         <CardText>
                             My portfolio
@@ -41,8 +44,11 @@ class Projects extends Component{
                         <CardActions border style={{textAlign:"center"}}>
                             <a href="https://github.com/AkshayGupt/portfolio" target="_blank"><Button  colored>View</Button></a>
                         </CardActions>
-                    </Card>     
-                   </div> 
+                    </Card> 
+
+                    </Cell>
+                </Grid>
+
                 )
             }
            
@@ -50,7 +56,9 @@ class Projects extends Component{
         else if(this.state.active === 1){
             return(
            <div>
-                 <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+               <Grid>
+                   <Cell col={4} tablet={12} phone={6}>
+                   <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
                             <CardTitle expand style={{color: '#fff', background: 'url(https://assets.exercism.io/tracks/java-hex-turquoise.png) bottom right 15% no-repeat #46B6AC'}}>Java</CardTitle>
                             <CardText>
                               Store Management System - provides admin and customer services.
@@ -59,6 +67,9 @@ class Projects extends Component{
                                 <a href="https://github.com/AkshayGupt/store-management-system" target="_blank"><Button colored>View</Button></a>
                             </CardActions>
                         </Card>
+                   </Cell>
+               </Grid>
+                
            </div> 
             )
             
